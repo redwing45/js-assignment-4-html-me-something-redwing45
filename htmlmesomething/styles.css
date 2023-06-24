@@ -6,12 +6,13 @@
     color: red;
 }
 
-#body{
+body{
     margin: 8px;
     display: block;
+    background-color: lightsalmon;
 }
 
-.div{
+div{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -20,18 +21,22 @@
 }
 
 .toTheMiddle{
-position: absolute;
-left: 100px;
-right: 100px;
-color: color-mix( orange 30, purple 70);
+text-align: center;
+left: auto;
+right: auto;
+color: teal;
 }
 
 
 img{
-    width: 300px; ;
-    height: 200px;;
+    width: 300px; 
+    height: 200px;
+    margin: auto;
+    display: block;
 }
 
 figcaption{
-    font: 15px, fantasy;
+    font-size: small;
+    text-align: center;
 }
+
