@@ -48,3 +48,7 @@ figcaption{
 #Sky{
  transform: rotate(180deg);
 }
+
+#offset{
+    font-size: small;
+}
